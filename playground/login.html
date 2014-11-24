@@ -1,14 +1,19 @@
 <html>
 	<head>
 		<title> Login Page</title>
+		<style type="text/css">
+			h2(letter-spacing: 10px; font-size: .2in;)
+			span(color : red)
+			
+		</style>
 	</head>
 	<body>
 		<h1> Login Form</h1>
 		<form name="Login Form">
 			<fieldset>
 				<legend>Login Form</legend>
-			User Name:     <input type='text' name= 'User Name'><br /><br />
-			Password:      <input type='password' name='Password'><br /><br />
+			<label>User Name:     <span>*</span><input type='text' name= 'User Name'></label><br /><br />
+			<label>Password:      <span>*</span><input type='password' name='Password'></label><br /><br />
 			<input type="reset" />
 			<input type ="submit" value="Login"></fieldset></form>
 		<footer>
