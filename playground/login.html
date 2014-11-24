@@ -9,6 +9,7 @@
 			fieldset{width: 350px; font-family : Arial; background-color : lightblue; color : rgb(0,0,100)}
 			label{position: relative ; line-height: 2 ;margin: 10px 0px;}
 			input{position: absolute ; margin-left : 20px; width : 15em; left: 80px}
+			.placeButtons{position : relative ; left : 0px; width : 70px}
 		</style>
 	</head>
 	<body>
@@ -18,8 +19,8 @@
 				<legend>Login Form</legend>
 			<label>User Name:     <span>*</span><input type='text' name= 'User Name'></label><br /><br />
 			<label>Password:      <span>*</span><input type='password' name='Password'></label><br /><br />
-			<input type="reset" />
-			<input type ="submit" value="Login"></fieldset></form>
+			<input class= "placeButtons" type="reset" class="resetButton"/>
+			<input class= "placeButtons" type ="submit" value="Login" class= "submitButton"/></fieldset></form>
 		<footer>
 	      <nav>
             <ul class="pager">
