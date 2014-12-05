@@ -88,9 +88,9 @@
 				?>
 				
 				<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="_food_form.html">
-					<i class="glyphicon glyphicon-plus"></i><br>
-					Add
-					<i class="glyphicon glyphicon-minus"></i>
+					<i class="glyphicon glyphicon-plus"></i>
+					Add<br>
+					<br><i class="glyphicon glyphicon-minus"></i>
 					Delete
 				</a>
 				
