@@ -92,7 +92,7 @@
               </a>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="exrcise.php">
+              <a href="exercise.php">
 	              <img src="holder.js/200x200/auto/industrial/text:Exercise" class="img-responsive img-circle center-block" >
 	              <h4><center>Exercise</center></h4>
 	              
