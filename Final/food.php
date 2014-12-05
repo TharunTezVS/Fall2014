@@ -89,11 +89,14 @@
 				
 				<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="_food_form.html">
 					<i class="glyphicon glyphicon-plus"></i>
-					Add<br>
-					<br><i class="glyphicon glyphicon-minus"></i>
-					Delete
+					Add
+					
 				</a>
-				
+				<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
+					<i class="glyphicon glyphicon-minus"></i>
+					Delete
+					
+				</a>
 				<!-- Modal -->
 				<div class="modal fade" id="myModal" tabindex="-1" >
 				  <div class="modal-dialog">
