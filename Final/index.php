@@ -76,10 +76,10 @@
 			
 
 			<div class="container content">
-				          <div class="row placeholders">
+		      <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
               <a href="#">
-	              <img src="holder.js/200x200/auto/lava/text:Profile" class="img-responsive img-circle center-block" >
+	              <img src="holder.js/200x200/auto/lava/text:Profile" class="img-responsive img-square center-block" >
 	              <h4><center>Profile</center></h4>
 	              <span class="text-muted"><center>Settings</center></span>
               </a>
