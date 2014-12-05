@@ -1,3 +1,6 @@
+<?
+	include 'inc/global_includes.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -15,81 +18,103 @@
 		<div id="top-nav"></div>
 			<header>
 				<div class="container">
-					<h1>Fitness Tracker - Home</h1>
+					<h1>Fitness Tracker - Food</h1>
 				</div>
 			</header>
 
 			<div class="container content">
-				          <div class="row placeholders">
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="#">
-	              <img src="holder.js/200x200/auto/lava/text:Profile" class="img-responsive img-circle center-block" >
-	              <h4>Profile</h4>
-	              <span class="text-muted">Your personal settings</span>
-              </a>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="food.php">
-	              <img src="holder.js/200x200/auto/vine/text:Food" class="img-responsive img-circle center-block" >
-	              <h4>Food</h4>
-	              <span class="text-muted">Intake tracker</span>
-              </a>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="exrcise.php">
-	              <img src="holder.js/200x200/auto/industrial/text:Exercise" class="img-responsive img-circle center-block" >
-	              <h4>Exercise</h4>
-	              <span class="text-muted">Workout tracker</span>
-              </a>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="#">
-	              <img src="holder.js/200x200/auto/social/text:Social" class="img-responsive img-circle center-block" >
-	              <h4>Social</h4>
-	              <span class="text-muted">Give encouragement</span>
-              </a>
-            </div>
-          </div>
-          <div class="row gauges">
-          	<div class="col-xs-6 col-sm-3 col-sm-offset-3">
-          		<div class="well well-sm text-center">
-          			<h3>Daily Limit<br /><small>Grams of Carbs</small></h3>
-		          	<div class="progress">
-					  <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 80%">
-					    <span>90 of 150 (danger)</span>
-					  </div>
-					</div>          	         			
-          		</div>
-          	</div>
-          	<div class="col-xs-6 col-sm-3">
-          		<div class="well well-sm text-center">
-          			<h3>Daily Goal<br /><small>Minutes of Exercise</small></h3>
-		          	<div class="progress">
-					  <div class="progress-bar progress-bar-success progress-bar-striped" style="width: 80%">
-					    <span>80% Complete</span>
-					  </div>
-					</div> 
-				</div>         		
-          	</div>
+				
+				<?
+					$msg = null;
+					$arr = array('first' => 'breakfast', 'second' => 'lunch' , 'third' => 'dinner');
+					$arr['fourth'] = 'midnight snack';
+					//my_print ($arr);
+					$meal = $arr['first'];
+					$msg = "Excelent Job. Your $arr[second] has been recorded";
+				?>
+				
+				<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="_food_form.html">
+					<i class="glyphicon glyphicon-plus"></i>
+					Add
+				</a>
+				
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" >
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				    </div>
+				  </div>
+				</div>
+				
+				<!-- Alert -->
+				<? foreach($arr as $key => $meal): ?>
+				<div class="alert alert-success initialy-hidden" id="myAlert">
+					<button type="button" class="close" data-dismiss="alert">
+						<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+					</button>
+						Excelent Job. Your <?=$key?> meal i.e. <?=$meal?> has been recorded				
+				</div>
+				<? endforeach; ?>
+				
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Calories</th>
+                  <th>Fat (g)</th>
+                  <th>Carbs (g)</th>
+                  <th>Fiber (g)</th>
+                  <th>Protien (g)</th>
+                  <th>Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Pizza</td>
+                  <td>500</td>
+                  <td>18.0</td>
+                  <td>5.0</td>
+                  <td>2.0</td>
+                  <td>3.0</td>
+                  <td> Sunday 9:15am</td>
+                </tr>
+                <tr>
+                  <td>Yogurt</td>
+                  <td>80</td>
+                  <td>0.5</td>
+                  <td>0.0</td>
+                  <td>0.0</td>
+                  <td>3.0</td>
+                  <td> Sunday 10:15am</td>
+                </tr>
+                <tr>
+                  <td>Slim-Bar</td>
+                  <td>100</td>
+                  <td>2.0</td>
+                  <td>5.0</td>
+                  <td>5.0</td>
+                  <td>3.0</td>
+                  <td> Sunday 11:15am</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
 			</div>
 
-			<footer>
-				<div class="container">
-					<p>
-						&copy; Copyright  by Moshe
-					</p>
-				</div>
-			</footer>
+			
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.4.0/holder.js"></script>
 		<script type="text/javascript">
 			$(function(){
 				$("#top-nav").load("inc/_nav.html", function(){
-					$(".index").addClass("active");					
+					$(".food").addClass("active");					
 				});
+				$('#myModal').on('hidden.bs.modal', function (e) {
+				  $("#myAlert").show();
+				})
 			});
 		</script>
 	</body>
