@@ -40,7 +40,7 @@
         
         
 
-        
+          <li><a href="index.php">Home</a></li>        
           <li><a href="#">Food</a></li>
           <li><a href="#">Exercise</a></li>
           <ul class="dropdown-menu" role="menu">
