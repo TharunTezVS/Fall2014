@@ -43,7 +43,7 @@
         
 
           <li><a href="index.php">Home</a></li>        
-          <li><a href="#">Food</a></li>
+          <li><a href="food.php">Food</a></li>
           <li><a href="#">Exercise</a></li>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Action</a></li>
