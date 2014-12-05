@@ -90,6 +90,8 @@
 				<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="_food_form.html">
 					<i class="glyphicon glyphicon-plus"></i>
 					Add
+					<i class="glyphicon glyphicon-minus"></i>
+					Delete
 				</a>
 				
 				<!-- Modal -->
