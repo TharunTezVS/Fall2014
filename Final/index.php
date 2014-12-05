@@ -80,7 +80,7 @@
             <div class="col-xs-6 col-sm-3 placeholder">
               <a href="#">
 	              <img src="holder.js/200x200/auto/lava/text:Profile" class="img-responsive img-circle center-block" >
-	              <h4>Profile</h4>
+	              <h4><center>Profile</center></h4>
 	              <span class="text-muted">Your personal settings</span>
               </a>
             </div>
