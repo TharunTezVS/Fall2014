@@ -81,28 +81,28 @@
               <a href="#">
 	              <img src="holder.js/200x200/auto/lava/text:Profile" class="img-responsive img-square center-block" >
 	              <h4><center>Profile</center></h4>
-	              <span class="text-muted"><center>Settings</center></span>
+	              
               </a>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
               <a href="food.php">
 	              <img src="holder.js/200x200/auto/vine/text:Food" class="img-responsive img-circle center-block" >
 	              <h4><center>Food</center></h4>
-	              <span class="text-muted"><center>Intake tracker</center></span>
+	              
               </a>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
               <a href="exrcise.php">
 	              <img src="holder.js/200x200/auto/industrial/text:Exercise" class="img-responsive img-circle center-block" >
 	              <h4><center>Exercise</center></h4>
-	              <span class="text-muted"><center>Workout</center> </span>
+	              
               </a>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
               <a href="#">
 	              <img src="holder.js/200x200/auto/social/text:Social" class="img-responsive img-circle center-block" >
 	              <h4><center>Social</center></h4>
-	              <span class="text-muted"><center>Encouragement</center></span>
+	              
               </a>
             </div>
           </div>
