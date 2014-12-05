@@ -71,7 +71,7 @@
 </header>
 			
 				<div class="container">
-					<h1>Fitness Tracker - Home</h1>
+					<h1><center> Tracker - Home</center></h1>
 				</div>
 			
 
