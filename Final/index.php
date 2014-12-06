@@ -42,7 +42,7 @@
 
           <li><a href="index.php">Home</a></li>        
           <li><a href="food.php">Food</a></li>
-          <li><a href="#">Exercise</a></li>
+          <li><a href="exercise.php">Exercise</a></li>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
