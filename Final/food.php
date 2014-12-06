@@ -87,16 +87,7 @@
 					$msg = "Excelent Job. Your $arr[second] has been recorded";
 				?>
 				
-				<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="foodform.html">
-					<i class="glyphicon glyphicon-plus"></i>
-					Add
-					
-				</a>
-				<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
-					<i class="glyphicon glyphicon-minus"></i>
-					Delete
-					
-				</a>
+				
 				<!-- Modal -->
 				<div class="modal fade" id="myModal" tabindex="-1" >
 				  <div class="modal-dialog">
@@ -162,7 +153,18 @@
 
 			</div>
 
-			
+		<footer>
+			<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="foodform.html">
+					<i class="glyphicon glyphicon-plus"></i>
+					Add
+					
+				</a>
+				<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
+					<i class="glyphicon glyphicon-minus"></i>
+					Delete
+					
+				</a>
+		</footer>	
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.4.0/holder.js"></script>
