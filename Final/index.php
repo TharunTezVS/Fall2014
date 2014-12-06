@@ -106,30 +106,7 @@
               </a>
             </div>
           </div>
-          <div class="row gauges">
-          	<div class="col-xs-6 col-sm-3 col-sm-offset-3">
-          		<div class="well well-sm text-center">
-          			<h3>Daily Limit<br /><small>Grams of Carbs</small></h3>
-		          	<div class="progress">
-					  <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 80%">
-					    <span>90 of 150 (danger)</span>
-					  </div>
-					</div>          	         			
-          		</div>
-          	</div>
-          	<div class="col-xs-6 col-sm-3">
-          		<div class="well well-sm text-center">
-          			<h3>Daily Goal<br /><small>Minutes of Exercise</small></h3>
-		          	<div class="progress">
-					  <div class="progress-bar progress-bar-success progress-bar-striped" style="width: 80%">
-					    <span>80% Complete</span>
-					  </div>
-					</div> 
-				</div>         		
-          	</div>
-          </div>
-
-			</div>
+        
 
 			
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
