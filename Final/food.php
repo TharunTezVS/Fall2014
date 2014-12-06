@@ -72,7 +72,7 @@
 </nav>
 			</header>	
 				<div class="container">
-					<h1>Track By Your Food Intake</h1>
+					<h1><center>Track By Your Food Intake</center></h1>
 				</div>
 			
 
