@@ -66,11 +66,11 @@
 					<h1><center>Track by Your Workout</center></h1>
 				</div>
 			</header>
-            <a width= 50px class="btn btn-success" data-toggle="modal" data-target="#myModal" href="exerciseform.html">
+            <a  class="btn btn-success" data-toggle="modal" data-target="#myModal" href="exerciseform.html">
 			  <i class="glyphicon glyphicon-plus"></i>
 			  Add
 			</a>
-			<a width=55px class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
+			<a  class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
 			  <i class="glyphicon glyphicon-minus"></i>
 			  Delete 
 			</a>
