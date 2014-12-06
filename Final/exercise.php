@@ -73,7 +73,7 @@
 				</a>
 				<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
 					<i class="glyphicon glyphicon-minus"></i>
-					Delete
+					Delete </a>
 			<div class="container content">
           <div class="table-responsive">
             <table class="table table-striped">
