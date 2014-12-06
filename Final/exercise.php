@@ -67,12 +67,13 @@
 				</div>
 			</header>
             <a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
-			<i class="glyphicon glyphicon-plus"></i>
-			Add
+			  <i class="glyphicon glyphicon-plus"></i>
+			  Add
 			</a>
 			<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
-			<i class="glyphicon glyphicon-minus"></i>
-			Delete </a>
+			  <i class="glyphicon glyphicon-minus"></i>
+			  Delete 
+			</a>
 			<div class="container content">
           <div class="table-responsive">
             <table class="table table-striped">
