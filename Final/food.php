@@ -87,7 +87,7 @@
 					$msg = "Excelent Job. Your $arr[second] has been recorded";
 				?>
 				
-				<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="_foodform.html">
+				<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="foodform.html">
 					<i class="glyphicon glyphicon-plus"></i>
 					Add
 					
