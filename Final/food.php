@@ -60,7 +60,7 @@
       	<li class = "dropdown">
       		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile <span class="caret"></span></a>
       		<ul class="dropdown-menu" role="menu">
-      		<li><a href="login.php">Login</a></li>
+      		<li><a href="login.html">Login</a></li>
       		<li class="divider"></li>
             <li><a href="#">Login through a Different account</a></li>
             
