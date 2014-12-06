@@ -4,28 +4,31 @@
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-		<style type="text/css">
-            		
-			
-			span {color : red}
-			legend{font-variant : smallcaps; font-weight : bold}
-			fieldset{width: 350px; font-family : Arial; background-color : lightblue; color : rgb(0,0,100)}
-			label{position: relative ; line-height: 2 ;margin: 10px 0px;}
-			.text{position: absolute ; margin-left : 20px; width : 15em; left: 80px}
-			form{ margin : 0 auto;
-			      width : 225px;}
-			
-		</style>
+		
 	</head>
 	<body>
 		
-		<form style="text-align: center" name="Login Form">
-			<fieldset>
-				<legend>Please Sign in</legend>
-			<label>User Name:     <span>*</span><input type='text' name= 'User Name'></label><br /><br />
-			<label>Password:      <span>*</span><input type='password' name='Password'></label><br /><br />
-			<input  type="reset" class="resetButton"/>
-			<input  type ="submit" value="Login" class= "submitButton"/></fieldset></form>
+		<form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 			
 		
 	</body>
