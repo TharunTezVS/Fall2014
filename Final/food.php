@@ -153,7 +153,7 @@
 
 			</div>
 
-		<footer>
+		<footer><center>
 			<a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="foodform.html">
 					<i class="glyphicon glyphicon-plus"></i>
 					Add
@@ -164,7 +164,7 @@
 					Delete
 					
 				</a>
-		</footer>	
+		</center></footer>	
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.4.0/holder.js"></script>
