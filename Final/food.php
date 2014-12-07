@@ -95,15 +95,7 @@
 				  </div>
 				</div>
 				
-				<!-- Alert -->
-				<? foreach($arr as $key => $meal): ?>
-				<div class="alert alert-success initialy-hidden" id="myAlert">
-					<button type="button" class="close" data-dismiss="alert">
-						<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-					</button>
-						Excelent Job. Your <?=$key?> meal i.e. <?=$meal?> has been recorded				
-				</div>
-				<? endforeach; ?>
+				
 				
           <div class="table-responsive">
             <table class="table table-striped">
