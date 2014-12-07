@@ -14,7 +14,7 @@
     
 </head>
 
-<body background="fitness.png" bgcolor="#0000FF" bgproperties="fixed">
+<body imgsrc="fitness.png" bgcolor="#0000FF" bgproperties="fixed">
     
     <div class="site-wrapper">
         <div class="site-wrapper-inner">
