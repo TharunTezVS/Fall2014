@@ -21,20 +21,16 @@
             <div class="cover-container">
                 <div class="masthead clearfix">
                     <div class="inner">
-                        <h3 class="masthead-brand">Fitness Tracker</h3>
+                        <h1 class="masthead-brand"><center>Fitness Tracker</center></h1>
                         <ul class="nav masthead-nav">
                         <li><a href="login.php">Login</a></li>
                       </ul>
                     </div>
                 </div>
                 <div class="inner cover">
-                    <h1 class="cover-heading">Track your Health!</h1>
-                    <p class="lead">Fitness is Happiness!</p>
-                    <p class="lead">
-                        <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#signUp">
-                          Sign Up Now
-                        </button>
-                    </p>
+                    <h1 class="cover-heading"><center>Track your Fitness</center></h1>
+                    <p class="lead"><h2><center>Because Fitness is Happiness!</center></h2></p>
+                    
                 </div>
             </div>
         </div>
