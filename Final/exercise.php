@@ -34,7 +34,7 @@
         
         
 
-          <li><a href="homepage.php">Home</a></li>        
+          <li><a href="home.php">Home</a></li>        
           <li><a href="food.php">Food</a></li>
           <li><a href="exercise.php">Exercise</a></li>
          
