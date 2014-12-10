@@ -3,7 +3,7 @@ var attempt = 3;
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "raviprov1@hawkmail.newpaltz.edu" && password == "Newpaltz12561"){
+if ( username == "raviprov1" && password == "s081691"){
 alert ("Login successfully");
 window.location = "cs.newpaltz.edu/~raviprov1/Fall2014/Final/home.php"; 
 return false;
