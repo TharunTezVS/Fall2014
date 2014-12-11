@@ -22,7 +22,7 @@
 
 	<body><header>
 	<div id="top-nav"></div></header>
-	<center>
+	
 		<div class="site-wrapper">
 
       <div class="site-wrapper-inner">
@@ -42,7 +42,7 @@
             </div>
           </div>
 
-	</center>		
+			
 							
 				
 		   
