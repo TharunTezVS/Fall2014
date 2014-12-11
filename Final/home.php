@@ -33,14 +33,13 @@
           <div class="masthead clearfix">
             <div class="inner">
               <h3 class="masthead-brand">Quicklinks</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li><font color="#DDE"><a href="#">Profile</a></font></li>
-                  <li><a href="food.php">Food</a></li>
-                  <li><a href="exercise.php">Exercise</a></li> 
-                  <li><a href="#">Social</a></li>
-                </ul>
-              </nav>
+              <p class="lead">
+              <a href="#" class="btn btn-lg btn-default">Profile</a>
+              <a href="food.php" class="btn btn-lg btn-default">Food</a>
+              <a href="exercise.php" class="btn btn-lg btn-default">Exercise</a>
+              <a href="#" class="btn btn-lg btn-default">Social</a>  
+            </p>
+              
             </div>
           </div>
           <div class="inner cover">
