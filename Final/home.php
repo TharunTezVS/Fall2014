@@ -20,10 +20,11 @@
 		
 	</head>
 
-	<body><header>
+	<body background="http://www.mirakfurniture.com/samples/mahogany/solid_black.jpg" class = "img-responsive" alt="Responsive image">
+	<header>
 	<div id="top-nav"></div></header>
-	
-		<div class="site-wrapper">
+      <center> 	
+	  <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
@@ -42,18 +43,13 @@
               </nav>
             </div>
           </div>
-          <?php
-            
-            $im = imagecreatetruecolor(100, 100);
-            $white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
-
-            
-            imagedashedline($im, 50, 25, 50, 75, $white);
-
-            
-           imagepng($im, './dashedline.png');
-           imagedestroy($im);
-         ?>
+          <div class="inner cover">
+            <h1 class="cover-heading"><strong>You have Suucesfully Logged in to Your Account</strong></h1>
+            <p class="lead"><em> Track your fitness here with your food intake and your workout</em></p>
+            <p class="lead">
+              <a href="index.html" class="btn btn-lg btn-default">Logout</a>
+            </p>
+          </div></center>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../../dist/js/bootstrap.min.js"></script>
         <script src="../../assets/js/docs.min.js"></script>
