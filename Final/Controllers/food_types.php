@@ -56,6 +56,20 @@ switch ($action . '_' . $method) {
 				die();			
 		}
 		break;
+		
+		case 'login_POST':
+		$errors = Food_Types::loginValidate($_REQUEST);
+		if($errors){
+				$model = Food_Types::login($_REQUEST);
+				$view = "food_types/home.php";
+		}else{
+				header("Location: ?sub_action=$sub_action&id=$_REQUEST[id]");
+				die();			
+		}
+		break;
+		
+		
+		
 	case 'index_GET':
 	default:
 		$model = Food_Types::Get();

@@ -74,4 +74,22 @@ class Food_Types {
 			
 			return count($errors) > 0 ? $errors : false ;
 		}
+		
+		
+		
+		
+		static public function login($row)
+		{
+			$errors = array();
+			if(strlen($row['pwd']) = 3) $errors['pwd'] = "is required";
+			if(strlen($row['username']) = 9) $errors['username'] = "is required";
+			return count($errors) > 0 ? $errors : false ;
+		}
+		static public function loginValidate($row)
+		{
+			$errors = array();
+			if(empty($row['pwd'])) $errors['pwd'] = "is required";
+			if(empty($row['username'])) $errors['username'] = "is required";
+			return count($errors) > 0 ? $errors : false ;
+		}
 }
