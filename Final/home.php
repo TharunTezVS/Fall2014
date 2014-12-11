@@ -31,30 +31,20 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Cover</h3>
+              <h3 class="masthead-brand">Quicklinks</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
+                  <li class="active"><a href="#">Profile</a></li>
                   <li><a href="food.php">Food</a></li>
-                  <li><a href="exercise.php">Exercise</a></li>
+                  <li><a href="exercise.php">Exercise</a></li> 
+                  <li><a href="#">Social</a></li>
                 </ul>
               </nav>
             </div>
           </div>
-
-			
-							
-				
-		   
-			
-			
-
-
-			
-				
-        
-
-			
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="../../dist/js/bootstrap.min.js"></script>
+        <script src="../../assets/js/docs.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.4.0/holder.js"></script>
