@@ -42,6 +42,18 @@
               </nav>
             </div>
           </div>
+          <?php
+            
+            $im = imagecreatetruecolor(100, 100);
+            $white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
+
+            
+            imagedashedline($im, 50, 25, 50, 75, $white);
+
+            
+           imagepng($im, './dashedline.png');
+           imagedestroy($im);
+         ?>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../../dist/js/bootstrap.min.js"></script>
         <script src="../../assets/js/docs.min.js"></script>
