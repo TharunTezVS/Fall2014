@@ -11,7 +11,7 @@
 		
 	</head>
 
-	<body>
+	<body background="http://wallalay.com/wp-content/uploads/2014/06/Solid-Blue-4.jpg"class = "img-responsive" alt="Responsive image">
 		<div id="top-nav"></div>
 			<header>
 				<div class="container">
