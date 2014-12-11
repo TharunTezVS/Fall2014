@@ -20,7 +20,7 @@
 		
 	</head>
 
-	<body background="http://www.mirakfurniture.com/samples/mahogany/solid_black.jpg" class = "img-responsive" alt="Responsive image">
+	<body background="http://wallalay.com/wp-content/uploads/2014/06/Solid-Blue-4.jpg" class = "img-responsive" alt="Responsive image">
 	<header>
 	<div id="top-nav"></div></header>
       <center> 	
@@ -44,7 +44,7 @@
             </div>
           </div>
           <div class="inner cover">
-            <h1 class="cover-heading"><strong>You have Suucesfully Logged in to Your Account</strong></h1>
+            <h1 class="cover-heading"><strong>You have Succesfully Logged in to Your Account</strong></h1>
             <p class="lead"><em> Track your fitness here with your food intake and your workout</em></p>
             <p class="lead">
               <a href="index.html" class="btn btn-lg btn-default">Logout</a>
