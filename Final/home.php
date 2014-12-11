@@ -14,6 +14,9 @@
         <meta name="description" content=""> 
         <meta name="author" content="">
         <link rel="icon" href="../../favicon.ico"
+        <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="cover.css" rel="stylesheet">
+        <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 		
 	</head>
 
