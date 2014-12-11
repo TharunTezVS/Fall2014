@@ -1,5 +1,5 @@
 <?php
-	include_once __DIR__ . '/../inc/_all.php';
+	include_once __DIR__ . '/../inc/all.php';
 /**
  * 
  */
