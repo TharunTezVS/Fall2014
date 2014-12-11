@@ -35,7 +35,7 @@
               <h3 class="masthead-brand">Quicklinks</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Profile</a></li>
+                  <li class="active"><font color="black"><a href="#">Profile</a></font></li>
                   <li><a href="food.php">Food</a></li>
                   <li><a href="exercise.php">Exercise</a></li> 
                   <li><a href="#">Social</a></li>
