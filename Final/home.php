@@ -8,58 +8,47 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="content/css/main.css">
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content=""> 
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico"
 		
 	</head>
 
-	<body>
-		<div id="top-nav"></div>
-			<header>
-							
-				<div class="container">
-					   
-					
-				</div>
-			
-			
+	<body><header>
+	<div id="top-nav"></div></header>
+	<center>
+		<div class="site-wrapper">
 
-</header>
-			
-				<div class="container">
-					<h1><center>Fitness Tracker</center></h1>
-				</div>
-			
+      <div class="site-wrapper-inner">
 
-			<div class="container content">
-		      <div class="row placeholders">
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="#">
-	              <img src="holder.js/200x200/auto/lava/text:Profile" class="img-responsive img-square center-block" >
-	              <h4><center>Profile</center></h4>
-	              
-              </a>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="food.php">
-	              <img src="holder.js/200x200/auto/vine/text:Food" class="img-responsive img-circle center-block" >
-	              <h4><center>Food</center></h4>
-	              
-              </a>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="exercise.php">
-	              <img src="holder.js/200x200/auto/industrial/text:Exercise" class="img-responsive img-circle center-block" >
-	              <h4><center>Exercise</center></h4>
-	              
-              </a>
-            </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="#">
-	              <img src="holder.js/200x200/auto/social/text:Social" class="img-responsive img-circle center-block" >
-	              <h4><center>Social</center></h4>
-	              
-              </a>
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Cover</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="food.php">Food</a></li>
+                  <li><a href="exercise.php">Exercise</a></li>
+                </ul>
+              </nav>
             </div>
           </div>
+
+	</center>		
+							
+				
+		   
+			
+			
+
+
+			
+				
         
 
 			
