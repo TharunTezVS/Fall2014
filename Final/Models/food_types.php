@@ -80,9 +80,11 @@ class Food_Types {
 		
 		static public function login($row)
 		{
+				// have to authenticate from DB whether user entered usename and pwd are matching
+			 
 			$errors = array();
-			if(strlen($row['pwd']) = 3) $errors['pwd'] = "is required";
-			if(strlen($row['username']) = 9) $errors['username'] = "is required";
+			if(strlen($row['pwd']) > 3) $errors['pwd'] = "is required";
+			if(strlen($row['username']) > 3) $errors['username'] = "is required";
 			return count($errors) > 0 ? $errors : false ;
 		}
 		static public function loginValidate($row)

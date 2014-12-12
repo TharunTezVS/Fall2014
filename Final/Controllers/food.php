@@ -61,7 +61,18 @@ switch ($action . '_' . $method) {
 		break;
 	case 'exercise_GET':
 		$view = 'food/exercise.php';		
-		break;		
+		break;	
+			
+		case 'login_POST':
+		$errors = Food::loginValidate($_REQUEST);
+		if($errors){
+				$model = Food::login($_REQUEST);
+				$view = "food/home.php";
+		}else{
+				header("Location: ?sub_action=$sub_action&id=$_REQUEST[username]");
+				die();			
+		}
+		break;
 	case 'index_GET':
 	default:
 		$model = Food::Get();

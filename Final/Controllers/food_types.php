@@ -1,4 +1,5 @@
 <?
+ini_set('display_errors', 1);
 	include_once __DIR__ . '/../inc/all.php';
 $action = isset($_REQUEST['action']) ? $_REQUEST['action'] : null;
 $method = $_SERVER['REQUEST_METHOD'];
@@ -63,7 +64,7 @@ switch ($action . '_' . $method) {
 				$model = Food_Types::login($_REQUEST);
 				$view = "food_types/home.php";
 		}else{
-				header("Location: ?sub_action=$sub_action&id=$_REQUEST[id]");
+				header("Location: ?sub_action=$sub_action&id=$_REQUEST[username]");
 				die();			
 		}
 		break;
