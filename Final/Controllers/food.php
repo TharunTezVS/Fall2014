@@ -69,7 +69,7 @@ switch ($action . '_' . $method) {
 				$model = Food::login($_REQUEST);
 				$view = "food/home.php";
 		}else{
-				header("Location: ?sub_action=$sub_action&id=$_REQUEST[username]");
+				header("Location: ?sub_action=$sub_action&id1=$_REQUEST[username]");
 				die();			
 		}
 		break;
