@@ -43,11 +43,9 @@
             </div>
           </div>
           <div class="inner cover">
-            <h1 class="cover-heading"><strong>You have Succesfully Logged in to Your Account</strong></h1>
-            <p class="lead"><em> Track your fitness here with your food intake and your workout</em></p>
-            <p class="lead">
-              <a href="index.html" class="btn btn-lg btn-default">Logout</a>
-            </p>
+            
+            <h1 class="lead"><strong><em> Track your fitness here with your food intake and your workout</em></strong></h1>
+            
           </div></center>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../../dist/js/bootstrap.min.js"></script>
