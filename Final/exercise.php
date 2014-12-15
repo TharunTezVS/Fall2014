@@ -66,10 +66,7 @@
 			  <i class="glyphicon glyphicon-plus"></i>
 			  Add
 			</a>
-			<a  class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
-			  <i class="glyphicon glyphicon-minus"></i>
-			  Delete 
-			</a>
+			
 		</center></footer>	
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
