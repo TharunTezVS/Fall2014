@@ -1,5 +1,5 @@
 <?php
-	include_once __DIR__ . '/../inc/all.php';
+	include_once __DIR__ . '/../inc/_all.php';
 /**
  * 
  */
@@ -90,20 +90,5 @@ class Food {
 			
 			return count($errors) > 0 ? $errors : false ;
 		}
-		static public function login($row)
-		{
-				// have to authenticate from DB whether user entered usename and pwd are matching
-			 
-			$errors = array();
-			if(strlen($row['pwd']) > 3) $errors['pwd'] = "is required";
-			if(strlen($row['username']) > 3) $errors['username'] = "is required";
-			return count($errors) > 0 ? $errors : false ;
-		}
-		static public function loginValidate($row)
-		{
-			$errors = array();
-			if(empty($row['pwd'])) $errors['pwd'] = "is required";
-			if(empty($row['username'])) $errors['username'] = "is required";
-			return count($errors) > 0 ? $errors : false ;
-		}
 }
+	
