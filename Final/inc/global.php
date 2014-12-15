@@ -2,8 +2,8 @@
 ini_set('display_errors', 1);
 date_default_timezone_set("America/New_York");
 function GetConnection(){
-	
-	return new mysqli('localhost','raviprov1',$sql_password,'raviprov1_db');
+	include __DIR__ . '/_password.php';
+	return new mysqli('localhost','raviprov1',$sql_password,'s081691');
 }
 function my_print($x){
 	?><pre><?
