@@ -15,13 +15,13 @@
 				<div class="modal fade" id="myModal" tabindex="-1" >
 				  <div class="modal-dialog">
 				    <div class="modal-content">
-
+<<<<<<< HEAD
 				    	<div class="modal-body">
 				    		<img src="../content/images/wait.gif" />
-
+=======
 				    	<div style="text-align: center">
 				    		<img width="150" height="150" src="../content/images/jar-loading.gif" />
-
+>>>>>>> origin/Nov_17
 				    	</div>
 				    </div>
 				  </div>
@@ -87,6 +87,7 @@
 							});
 					});
 					
+
 
 					$("#myModal").modal("show");
 					
