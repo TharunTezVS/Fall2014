@@ -1,6 +1,5 @@
 <?
-ini_set('display_errors', 1);
-	include_once __DIR__ . '/../inc/all.php';
+	include_once __DIR__ . '/../inc/_all.php';
 $action = isset($_REQUEST['action']) ? $_REQUEST['action'] : null;
 $method = $_SERVER['REQUEST_METHOD'];
 $format = isset($_REQUEST['format']) ? $_REQUEST['format'] : 'web';
@@ -57,20 +56,6 @@ switch ($action . '_' . $method) {
 				die();			
 		}
 		break;
-		
-		case 'login_POST':
-		$errors = Food_Types::loginValidate($_REQUEST);
-		if($errors){
-				$model = Food_Types::login($_REQUEST);
-				$view = "food_types/home.php";
-		}else{
-				header("Location: ?sub_action=$sub_action&username=$_REQUEST[username]");
-				die();			
-		}
-		break;
-		
-		
-		
 	case 'index_GET':
 	default:
 		$model = Food_Types::Get();

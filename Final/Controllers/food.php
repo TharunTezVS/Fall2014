@@ -1,5 +1,5 @@
 <?
-	include_once __DIR__ . '/../inc/all.php';
+	include_once __DIR__ . '/../inc/_all.php';
 $action = isset($_REQUEST['action']) ? $_REQUEST['action'] : null;
 $method = $_SERVER['REQUEST_METHOD'];
 $format = isset($_REQUEST['format']) ? $_REQUEST['format'] : 'web';
@@ -11,7 +11,7 @@ switch ($action . '_' . $method) {
 		break;
 	case 'save_POST':
 			$sub_action = empty($_REQUEST['id']) ? 'created' : 'updated';
-			
+			$errors = Food::Validate($_REQUEST);
 			if(!$errors){
 				$errors = Food::Save($_REQUEST);
 			}
@@ -61,18 +61,7 @@ switch ($action . '_' . $method) {
 		break;
 	case 'exercise_GET':
 		$view = 'food/exercise.php';		
-		break;	
-			
-		case 'login_POST':
-		$errors = Food::loginValidate($_REQUEST);
-		if($errors){
-				$model = Food::login($_REQUEST);
-				$view = "food/home.php";
-		}else{
-				header("Location: ?sub_action=$sub_action&id1=$_REQUEST[username]");
-				die();			
-		}
-		break;
+		break;		
 	case 'index_GET':
 	default:
 		$model = Food::Get();
