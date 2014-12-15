@@ -77,7 +77,7 @@
                   <td> Sunday 9:15am</td>
                   <td><a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
 					<i class="glyphicon glyphicon-remove"></i>
-					Add
+				     Remove
 					
 				</a></td>
                 </tr>
@@ -89,6 +89,11 @@
                   <td>0.0</td>
                   <td>3.0</td>
                   <td> Sunday 10:15am</td>
+                  <td><a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
+					<i class="glyphicon glyphicon-remove"></i>
+				     Remove
+					
+				</a></td>
                 </tr>
                 <tr>
                   <td>Slim-Bar</td>
@@ -98,6 +103,11 @@
                   <td>5.0</td>
                   <td>3.0</td>
                   <td> Sunday 11:15am</td>
+                  <td><a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
+					<i class="glyphicon glyphicon-remove"></i>
+				     Remove
+					
+				</a></td>
                 </tr>
               </tbody>
             </table>

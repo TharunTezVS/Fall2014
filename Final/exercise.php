@@ -40,6 +40,11 @@
                   <td>18.0</td>
                   <td>500</td>
                   <td> Sunday 9:15am</td>
+                  <td><a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
+					<i class="glyphicon glyphicon-remove"></i>
+				     Remove
+					
+				</a></td>
                 </tr>
                 <tr>
                   <td>Treadmill</td>
@@ -47,6 +52,11 @@
                   <td>18.0</td>
                   <td>500</td>
                   <td> Sunday 9:15am</td>
+                  <td><a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
+					<i class="glyphicon glyphicon-remove"></i>
+				     Remove
+					
+				</a></td>
                 </tr>
                 <tr>
                   <td>The tripping fields</td>
@@ -54,6 +64,11 @@
                   <td>18.0</td>
                   <td>500</td>
                   <td> Sunday 9:15am</td>
+                  <td><a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
+					<i class="glyphicon glyphicon-remove"></i>
+				     Remove
+					
+				</a></td>
                 </tr>
               </tbody>
             </table>
