@@ -63,6 +63,7 @@
                   <th>Fiber (g)</th>
                   <th>Protien (g)</th>
                   <th>Time</th>
+                  
                 </tr>
               </thead>
               <tbody>
@@ -74,6 +75,11 @@
                   <td>2.0</td>
                   <td>3.0</td>
                   <td> Sunday 9:15am</td>
+                  <td><a class="btn btn-success" data-toggle="modal" data-target="#myModal" href="#">
+					<i class="glyphicon glyphicon-remove"></i>
+					Add
+					
+				</a></td>
                 </tr>
                 <tr>
                   <td>Yogurt</td>
